@@ -27,9 +27,9 @@ namespace Game.Managers
                 return;
 
 #if UNITY_ANDROID && !UNITY_EDITOR
-            Vibration.VibrateNope();
+            //Vibration.VibrateNope();
 #elif UNITY_IOS && !UNITY_EDITOR
-            Vibration.VibrateIOS(NotificationFeedbackStyle.Error);
+            //Vibration.VibrateIOS(NotificationFeedbackStyle.Error);
 #endif
         }
 
@@ -39,9 +39,9 @@ namespace Game.Managers
                 return;
 
 #if UNITY_ANDROID && !UNITY_EDITOR
-            Vibration.VibrateAndroid(5);
+            //Vibration.VibrateAndroid(5);
 #elif UNITY_IOS && !UNITY_EDITOR
-            Vibration.VibrateIOS(ImpactFeedbackStyle.Light);
+            //Vibration.VibrateIOS(ImpactFeedbackStyle.Light);
 #endif
         }
     }

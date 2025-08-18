@@ -1,3 +1,5 @@
+#if UNITY_EDITOR
+
 using UnityEngine;
 using UnityEditor;
 using System.IO;
@@ -630,3 +632,4 @@ public class ItemIconGenerator : EditorWindow
         return uniquePath;
     }
 }
+#endif

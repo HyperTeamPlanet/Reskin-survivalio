@@ -1,4 +1,6 @@
-﻿using Game.Config;
+﻿using System;
+using System.Collections.Generic;
+using Game.Config;
 using Game.Unit;
 using TMPro;
 using UnityEngine;
@@ -18,6 +20,7 @@ namespace Game.Player
         [SerializeField] private SkinnedMeshRenderer _gloves;
         [SerializeField] private SkinnedMeshRenderer _shoes;
 
+        private Dictionary<ClothElementType, SkinnedMeshRenderer> _renderers;
         protected override void OnModelChanged(UnitModel model)
         {
             var playerModel = model as PlayerModel;
@@ -34,11 +37,22 @@ namespace Game.Player
                 return;
             }
 
-            _helmet.sharedMesh = playerModel.ClothMeshMap[ClothElementType.Helmet];
-            _vest.sharedMesh = playerModel.ClothMeshMap[ClothElementType.Vest];
-            _uniform.sharedMesh = playerModel.ClothMeshMap[ClothElementType.Uniform];
-            _gloves.sharedMesh = playerModel.ClothMeshMap[ClothElementType.Gloves];
-            _shoes.sharedMesh = playerModel.ClothMeshMap[ClothElementType.Shoes];
+            _renderers = new Dictionary<ClothElementType, SkinnedMeshRenderer>()
+            {
+                {ClothElementType.Helmet, _helmet},
+                {ClothElementType.Vest, _vest},
+                {ClothElementType.Uniform, _uniform},
+                {ClothElementType.Gloves, _gloves},
+                {ClothElementType.Shoes, _shoes}
+            };
+
+            foreach (var skinnedMeshRenderer in _renderers)
+            {
+                skinnedMeshRenderer.Value.sharedMesh = playerModel.ClothMeshMap[skinnedMeshRenderer.Key];
+                var material = playerModel.ClothMaterialMap[skinnedMeshRenderer.Key];
+                if (material != null)
+                    skinnedMeshRenderer.Value.material = playerModel.ClothMaterialMap[skinnedMeshRenderer.Key];
+            }
         }
     }
 }

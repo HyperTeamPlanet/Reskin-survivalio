@@ -165,6 +165,7 @@ namespace Game.UI.Hud
                 var clothModel = model as ClothModel;
 
                 _player.Model.ClothMeshMap[clothModel.ClothType] = clothModel.Mesh;
+                _player.Model.ClothMaterialMap[clothModel.ClothType] = clothModel.Material;
 
                 var type = UnitAttributeType.Health;
                 var value = _player.Model.GetAttribute(type);

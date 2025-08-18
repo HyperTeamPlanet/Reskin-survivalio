@@ -59,6 +59,7 @@ namespace Game.Player
 
         private readonly PlayerData _data;
         public Dictionary<ClothElementType, Mesh> ClothMeshMap;
+        public Dictionary<ClothElementType, Material> ClothMaterialMap;
 
         public int EquippedWeapon
         {
@@ -76,6 +77,7 @@ namespace Game.Player
         {
             _data = PlayerData.Load(gameConfig);
             _attributes = new Dictionary<UnitAttributeType, float>();
+            ClothMaterialMap = new Dictionary<ClothElementType, Material>();
 
             var config = gameConfig.PlayerConfig;
 
@@ -115,6 +117,7 @@ namespace Game.Player
                 var level = ClothLevels[serial];
                 var clothModel = new ClothModel(clothConfig, serial, level);
                 ClothMeshMap[clothModel.ClothType] = clothModel.Mesh;
+                ClothMaterialMap[clothModel.ClothType] = clothModel.Material;
                 health += (int)clothModel.Armor;
             }
 

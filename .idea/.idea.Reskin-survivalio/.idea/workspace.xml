@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a903aaf-da36-403b-9c1a-d74cceeec929" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/BossConfigs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/BossConfigs/Boss0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/BossConfigs/Boss0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/EnemyConfigs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/EnemyConfigs/Enemy0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/EnemyConfigs/Enemy0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/EnemyConfigs/Enemy1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/EnemyConfigs/Enemy1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/EnemyConfigs/Enemy2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/EnemyConfigs/Enemy2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/EnemyConfigs/Enemy3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/EnemyConfigs/Enemy3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/EnemyConfigs/Enemy4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/EnemyConfigs/Enemy4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/GameConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/GameConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/AbilityConfigs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/AbilityConfigs/EnergyDrinkConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/AbilityConfigs/EnergyDrinkConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/AbilityConfigs/MagnetConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/AbilityConfigs/MagnetConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/Default0NinjaHelmetAConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/Default0NinjaHelmetAConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/Default1NinjaVestRedConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/Default1NinjaVestRedConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/Default2NinjaUniformRedConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/Default2NinjaUniformRedConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/Default3NinjaGlovesRedConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/Default3NinjaGlovesRedConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/Default4NinjaShoesRedConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/Default4NinjaShoesRedConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaGlovesGreyConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaGlovesGreyConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaGlovesOrangeConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaGlovesOrangeConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaHelmetBConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaHelmetBConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaShoesGreyConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaShoesGreyConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaShoesOrangeConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaShoesOrangeConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaUniformGreyConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaUniformGreyConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaUniformOrangeConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaUniformOrangeConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaVestGreyConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaVestGreyConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaVestOrangeConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ClothConfigs/NinjaVestOrangeConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ResourceConfigs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ResourceConfigs/CashConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ResourceConfigs/CashConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ResourceConfigs/GemsConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/ResourceConfigs/GemsConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/WeaponConfigs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/WeaponConfigs/Boomerang.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/WeaponConfigs/Boomerang.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/WeaponConfigs/KunaiDefault.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/WeaponConfigs/KunaiDefault.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/WeaponConfigs/ShurikenA.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/WeaponConfigs/ShurikenA.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/WeaponConfigs/ShurikenB.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/InventoryConfigs/WeaponConfigs/ShurikenB.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/LevelConfigs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/LevelConfigs/Level0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/LevelConfigs/Level0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/LevelConfigs/Level1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/LevelConfigs/Level1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/MenuHudConfigs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/MenuHudConfigs/0ShopHudConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/MenuHudConfigs/0ShopHudConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/MenuHudConfigs/1EquipmentHudConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/MenuHudConfigs/1EquipmentHudConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/MenuHudConfigs/2BattleHudConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/MenuHudConfigs/2BattleHudConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/MenuHudConfigs/3ThirdHudConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/MenuHudConfigs/3ThirdHudConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/MenuHudConfigs/4FourthHudConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/MenuHudConfigs/4FourthHudConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/PlayerConfigs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/PlayerConfigs/Player0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/PlayerConfigs/Player0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Prefabs/EquipmentCell.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Prefabs/EquipmentCell.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Prefabs/InventorySlot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Prefabs/InventorySlot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Prefabs/RawCameraPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Prefabs/RawCameraPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ProductEnergyForAds.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ProductEnergyForAds.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ProductEnergyForGems.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ProductEnergyForGems.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ShopProductCashForGems0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ShopProductCashForGems0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ShopProductCashForGems1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ShopProductCashForGems1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ShopProductCashForGems2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ShopProductCashForGems2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ShopProductGemsForRealMoney0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ShopProductGemsForRealMoney0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ShopProductGemsForRealMoney1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ShopProductGemsForRealMoney1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ShopProductGemsForRealMoney2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/ShopProductConfigs/ShopProductGemsForRealMoney2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Sprites/AdsIcon.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Sprites/AdsIcon.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Sprites/CashIcon.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Sprites/CashIcon.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Sprites/EnemyIcon.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Sprites/EnemyIcon.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Sprites/EnergyIcon.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Sprites/EnergyIcon.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Sprites/GemsIcon.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Resources/Sprites/GemsIcon.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Animation/AC.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Animation/AC.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Animation/Die.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Animation/Die.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Animation/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Animation/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Animation/Jump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Animation/Jump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Animation/Run.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Animation/Run.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/AtlasMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/AtlasMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/Eye.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/Eye.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/GroundLevel0.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/GroundLevel0.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/GroundLevel1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/GroundLevel1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/UIMaterials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/UIMaterials/BattleHudGradientMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/UIMaterials/BattleHudGradientMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/UIMaterials/BossHealthBarMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/UIMaterials/BossHealthBarMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/UIMaterials/CommonHudBGMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/UIMaterials/CommonHudBGMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/UIMaterials/EquipmentHudGradientMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/UIMaterials/EquipmentHudGradientMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/UIMaterials/GamePlayGradientMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/UIMaterials/GamePlayGradientMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/UIMaterials/LevelLabelMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/UIMaterials/LevelLabelMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/UIMaterials/LevelProgressMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Materials/UIMaterials/LevelProgressMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Abilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Abilities/Magnet.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Abilities/Magnet.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Abilities/SodaCanC.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Abilities/SodaCanC.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Gloves.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Gloves/NinjaGlovesGrey.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Gloves/NinjaGlovesGrey.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Gloves/NinjaGlovesOrange.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Gloves/NinjaGlovesOrange.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Gloves/NinjaGlovesRed.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Gloves/NinjaGlovesRed.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Helmet.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Helmet/NinjaHatA.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Helmet/NinjaHatA.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Helmet/NinjaHatB.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Helmet/NinjaHatB.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Shoes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Shoes/NinjaShoesGrey.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Shoes/NinjaShoesGrey.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Shoes/NinjaShoesOrange.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Shoes/NinjaShoesOrange.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Shoes/NinjaShoesRed.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Shoes/NinjaShoesRed.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Uniform.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Uniform/NinjaPantsGrey.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Uniform/NinjaPantsGrey.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Uniform/NinjaPantsOrange.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Uniform/NinjaPantsOrange.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Uniform/NinjaPantsRed.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Uniform/NinjaPantsRed.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Vest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Vest/NinjaVestGrey.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Vest/NinjaVestGrey.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Vest/NinjaVestOrange.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Vest/NinjaVestOrange.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Vest/NinjaVestRed.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Cloth/Vest/NinjaVestRed.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Grass.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Grass/GrassA.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Grass/GrassA.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Grass/GrassB.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Grass/GrassB.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Resource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Resource/CashGreen.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Resource/CashGreen.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Resource/GemGreen.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Resource/GemGreen.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Resource/GemPink.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Resource/GemPink.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Rock.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Rock/RockA.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Rock/RockA.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Rock/RockB.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Rock/RockB.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Trees.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Trees/TrunkA.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Trees/TrunkA.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Trees/TrunkB.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Trees/TrunkB.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Trees/TrunkC.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Trees/TrunkC.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Trees/TrunkD.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Trees/TrunkD.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Trees/TrunkF.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Trees/TrunkF.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Trees/TrunkG.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Trees/TrunkG.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Trees/TrunkH.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Trees/TrunkH.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaBlack.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaBlack.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaBlackRed.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaBlackRed.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaBlue.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaBlue.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaGrey.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaGrey.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaGreyFull.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaGreyFull.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaHead.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaHead.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaOrangeFull.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaOrangeFull.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaPurple.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaPurple.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaRed.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaRed.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaRedFull.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaRedFull.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaWhite.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Units/NinjaWhite.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Weapons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Weapons/Boomerang.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Weapons/Boomerang.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Weapons/Kunai.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Weapons/Kunai.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Weapons/ShurikenA.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Weapons/ShurikenA.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Weapons/ShurikenB.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Models/Weapons/ShurikenB.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Boss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Boss/Boss0.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Boss/Boss0.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Bullets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Bullets/Boomerang.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Bullets/Boomerang.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Bullets/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Bullets/Core/BulletCore.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Bullets/Core/BulletCore.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Bullets/Kunai.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Bullets/Kunai.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Bullets/ShurikenA.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Bullets/ShurikenA.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Bullets/ShurikenB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Bullets/ShurikenB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Camera.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Camera/Camera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Camera/Camera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Collectibles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Collectibles/CollectibleCash.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Collectibles/CollectibleCash.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Collectibles/CollectibleCore.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Collectibles/CollectibleCore.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Collectibles/CollectibleGemsGreen.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Collectibles/CollectibleGemsGreen.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Collectibles/CollectibleGemsPink.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Collectibles/CollectibleGemsPink.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects/Blood.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects/Blood/BloodEffectBPink.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects/Blood/BloodEffectBPink.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects/Blood/BloodEffectBWhite.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects/Blood/BloodEffectBWhite.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects/Blood/BloodEffectMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects/Blood/BloodEffectMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects/Fire.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects/Fire/FireEffect.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects/Fire/FireEffect.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects/Fire/FireMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects/Fire/FireMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects/Trail.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects/Trail/Trail.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Effects/Trail/Trail.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Enemy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Enemy/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Enemy/Core/EnemyCore.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Enemy/Core/EnemyCore.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Enemy/Enemy0.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Enemy/Enemy0.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Enemy/Enemy1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Enemy/Enemy1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Enemy/Enemy2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Enemy/Enemy2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Enemy/Enemy3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Enemy/Enemy3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Enemy/Enemy4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Enemy/Enemy4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Grass.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Grass/GrassA.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Grass/GrassA.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Grass/GrassB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Grass/GrassB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Grounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Grounds/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Grounds/Core/GroundCore.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Grounds/Core/GroundCore.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Grounds/GroundLevel0.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Grounds/GroundLevel0.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Grounds/GroundLevel1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Grounds/GroundLevel1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Levels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Levels/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Levels/Core/LevelCore.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Levels/Core/LevelCore.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Levels/Level0.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Levels/Level0.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Levels/Level1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Levels/Level1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Light.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Light/LevelLight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Light/LevelLight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Light/MenuLight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Light/MenuLight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Player/Face.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Player/Face.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Player/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Player/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Resource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Resource/Cash.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Resource/Cash.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Resource/GemsGreen.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Resource/GemsGreen.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Resource/GemsPink.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Resource/GemsPink.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Rock.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Rock/RockA.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Rock/RockA.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Rock/RockB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Rock/RockB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Trees.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Trees/TrunkA.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Trees/TrunkA.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Trees/TrunkB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Trees/TrunkB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Trees/TrunkC.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Trees/TrunkC.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Trees/TrunkD.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Trees/TrunkD.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Trees/TrunkF.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Trees/TrunkF.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Trees/TrunkG.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Trees/TrunkG.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Trees/TrunkH.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/Trees/TrunkH.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Bar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Bar/FillBarSplashScreen.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Bar/FillBarSplashScreen.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/ButtonBlue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/ButtonBlue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/ButtonGreen.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/ButtonGreen.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/ButtonMenu.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/ButtonMenu.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/ButtonRed.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/ButtonRed.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/ButtonYellow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/ButtonYellow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/CloseButton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/CloseButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/Core/ButtonCore.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/Core/ButtonCore.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/HomeButton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/HomeButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/PauseButton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/PauseButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/SettingsButton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/SettingsButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/StartButton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Buttons/StartButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/BattleHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/BattleHud/BattleHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/BattleHud/BattleHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/BossIncomingHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/BossIncomingHud/BossIncomingHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/BossIncomingHud/BossIncomingHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/CheatPanelHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/CheatPanelHud/CheatPanelHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/CheatPanelHud/CheatPanelHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/DefeatHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/DefeatHud/DefeatHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/DefeatHud/DefeatHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/EquipmentHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/EquipmentHud/AttackAttributeSlot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/EquipmentHud/AttackAttributeSlot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/EquipmentHud/AttributeSlot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/EquipmentHud/AttributeSlot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/EquipmentHud/EquipmentHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/EquipmentHud/EquipmentHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/EquipmentHud/HealthAttributeSlot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/EquipmentHud/HealthAttributeSlot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/EquipmentPreviewHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/EquipmentPreviewHud/EquipmentPreviewHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/EquipmentPreviewHud/EquipmentPreviewHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/GamePlayHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/GamePlayHud/GamePlayHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/GamePlayHud/GamePlayHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/GamePlayHud/ResourceHolder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/GamePlayHud/ResourceHolder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/LeaveGameplayHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/LeaveGameplayHud/LeaveGameplayHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/LeaveGameplayHud/LeaveGameplayHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/MenuButtonsHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/MenuButtonsHud/MenuButtonsHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/MenuButtonsHud/MenuButtonsHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/PauseHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/PauseHud/PauseHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/PauseHud/PauseHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/PauseHud/SkillPauseSlot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/PauseHud/SkillPauseSlot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/PauseHud/SkillsTab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/PauseHud/SkillsTab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/PurchaseEnergyHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/PurchaseEnergyHud/PurchaseEnergyHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/PurchaseEnergyHud/PurchaseEnergyHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SettingsHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SettingsHud/SettingsHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SettingsHud/SettingsHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/ShopHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/ShopHud/PurchaseHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/ShopHud/PurchaseHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/ShopHud/ShopHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/ShopHud/ShopHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/ShopHud/ShopProductGrey.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/ShopHud/ShopProductGrey.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/ShopHud/ShopProductPink.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/ShopHud/ShopProductPink.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/ShopHud/ShopProductSlotCore.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/ShopHud/ShopProductSlotCore.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SkillSelectionHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SkillSelectionHud/IconCore.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SkillSelectionHud/IconCore.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SkillSelectionHud/SkillSelectionHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SkillSelectionHud/SkillSelectionHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SkillSelectionHud/SkillSelectionSlot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SkillSelectionHud/SkillSelectionSlot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SkillSelectionHud/StarsIcon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SkillSelectionHud/StarsIcon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SkillSelectionHud/WeaponsSlot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SkillSelectionHud/WeaponsSlot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SplashScreenHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SplashScreenHud/SplashScreenHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/SplashScreenHud/SplashScreenHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/StatsHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/StatsHud/StatsHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/StatsHud/StatsHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/VictoryHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/VictoryHud/VictoryHud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Huds/VictoryHud/VictoryHud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Labels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Labels/LabelText.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UI/Labels/LabelText.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UINotifications.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UINotifications/UINotificationPopup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Prefabs/UINotifications/UINotificationPopup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Shaders/BlinkOnHit.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Shaders/BlinkOnHit.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Shaders/GradientHorizontal.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Shaders/GradientHorizontal.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Shaders/RadialGradient.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Shaders/RadialGradient.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/AtlasTexture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/AtlasTexture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/BaseShapes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/BaseShapes/ButtonFadeBorders.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/BaseShapes/ButtonFadeBorders.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/BaseShapes/Circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/BaseShapes/Circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/BaseShapes/Gradient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/BaseShapes/Gradient.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/BaseShapes/GradientRadial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/BaseShapes/GradientRadial.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/BaseShapes/GradientWhite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/BaseShapes/GradientWhite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/BaseShapes/Square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/BaseShapes/Square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/BattleIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/BattleIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/ButtonBlue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/ButtonBlue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/ButtonGreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/ButtonGreen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/ButtonGrey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/ButtonGrey.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/ButtonRed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/ButtonRed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/ButtonYellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/ButtonYellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/CloseIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/CloseIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/EquipmentIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/EquipmentIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/HomeIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/HomeIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/LockedTabIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/LockedTabIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/MenuButtonActive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/MenuButtonActive.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/MenuButtonInactive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/MenuButtonInactive.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/PauseIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/PauseIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/SettingsIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/SettingsIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/ShopIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/ButtonIcons/ShopIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Headers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Headers/HeaderGreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Headers/HeaderGreen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Headers/HeaderGrey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Headers/HeaderGrey.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Headers/HeaderOrange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Headers/HeaderOrange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Headers/HeaderPink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Headers/HeaderPink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/AbilityIcons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/AbilityIcons/EnergyDrinkIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/AbilityIcons/EnergyDrinkIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/AbilityIcons/MagnetIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/AbilityIcons/MagnetIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Gloves.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Gloves/NinjaGlovesGreyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Gloves/NinjaGlovesGreyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Gloves/NinjaGlovesOrangeIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Gloves/NinjaGlovesOrangeIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Gloves/NinjaGlovesRedIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Gloves/NinjaGlovesRedIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Helmets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Helmets/NinjaHatAIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Helmets/NinjaHatAIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Helmets/NinjaHatBIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Helmets/NinjaHatBIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Shoes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Shoes/NinjaShoesGreyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Shoes/NinjaShoesGreyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Shoes/NinjaShoesOrangeIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Shoes/NinjaShoesOrangeIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Shoes/NinjaShoesRedIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Shoes/NinjaShoesRedIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Uniform.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Uniform/NinjaPantsGreyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Uniform/NinjaPantsGreyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Uniform/NinjaPantsOrangeIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Uniform/NinjaPantsOrangeIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Uniform/NinjaPantsRedIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Uniform/NinjaPantsRedIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Vest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Vest/NinjaVestGreyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Vest/NinjaVestGreyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Vest/NinjaVestOrangeIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Vest/NinjaVestOrangeIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Vest/NinjaVestRedIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ClothIcons/Vest/NinjaVestRedIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/AdsIconSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/AdsIconSmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/AttackIconSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/AttackIconSmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/CashIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/CashIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/CashIconSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/CashIconSmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/EnemyIconSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/EnemyIconSmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/GemIconSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/GemIconSmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/GemsIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/GemsIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/HeartIconSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/HeartIconSmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/LightingIconSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/LightingIconSmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/PlusIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/ResourceIcons/PlusIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/WeaponIcons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/WeaponIcons/BoomerangIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/WeaponIcons/BoomerangIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/WeaponIcons/KunaiIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/WeaponIcons/KunaiIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/WeaponIcons/ShurikenAIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/WeaponIcons/ShurikenAIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/WeaponIcons/ShurikenBIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/InventoryIcons/WeaponIcons/ShurikenBIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Joystick.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Joystick/JoystickCircle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Joystick/JoystickCircle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Joystick/JoystickDot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Joystick/JoystickDot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Logos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Logos/GorodiskiLogoWhite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Logos/GorodiskiLogoWhite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/CashOfferASmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/CashOfferASmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/CashOfferBSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/CashOfferBSmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/CashOfferCSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/CashOfferCSmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/EnergyOfferASmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/EnergyOfferASmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/EnergyOfferBSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/EnergyOfferBSmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/GemsOfferASmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/GemsOfferASmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/GemsOfferBSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/GemsOfferBSmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/GemsOfferCSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/GemsOfferCSmall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/RibbonBlue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/RibbonBlue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/RibbonGreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/RibbonGreen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/RibbonPink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/RibbonPink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/RibbonYellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/RibbonYellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/ShopProductGreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/ShopProductGreen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/ShopProductGrey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/ShopProductGrey.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/ShopProductPink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Shop/ShopProductPink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SkillSelectionHud.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SkillSelectionHud/AbilitiesSlot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SkillSelectionHud/AbilitiesSlot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SkillSelectionHud/SkillAbilityBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SkillSelectionHud/SkillAbilityBG.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SkillSelectionHud/SkillWeaponBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SkillSelectionHud/SkillWeaponBG.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SkillSelectionHud/StarEmptyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SkillSelectionHud/StarEmptyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SkillSelectionHud/StarIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SkillSelectionHud/StarIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SkillSelectionHud/WeaponsSlot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SkillSelectionHud/WeaponsSlot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SlotIcons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SlotIcons/InventorySlotCell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SlotIcons/InventorySlotCell.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SlotIcons/InventorySlotGreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SlotIcons/InventorySlotGreen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SlotIcons/InventorySlotGrey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SlotIcons/InventorySlotGrey.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SlotIcons/InventorySlotOrange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/SlotIcons/InventorySlotOrange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Slots.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Slots/HeroPortraitIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Slots/HeroPortraitIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Slots/SlotA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Slots/SlotA.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Slots/SlotB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Slots/SlotB.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Slots/SlotC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Slots/SlotC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Slots/SlotD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/Slots/SlotD.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/UnitIcons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/UnitIcons/BossIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/UnitIcons/BossIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/UnitIcons/PlayerIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/ResourcesStatic/Textures/UnitIcons/PlayerIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scenes/Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scenes/Gameplay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/Config/ClothConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/Config/ClothConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/Inventory/Cloth/ClothView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/Inventory/Cloth/ClothView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/Managers/VibrationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/Managers/VibrationManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/Player/PlayerView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/Player/PlayerView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/UI/Huds/EquipmentHud/EquipmentHudMediator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/UI/Huds/EquipmentHud/EquipmentHudMediator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Icons/NewIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Icons/NewIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemIconGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemIconGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/44F3679C-53D1-477A-9C6E-72F269E3A3A9/a4/d414888b/Mesh.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/Config/ClothConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/Inventory/Cloth/ClothView.cs" />
+        <option value="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/UI/Huds/EquipmentHud/EquipmentHudMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/Player/PlayerView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemIconGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/GorodiskiGames/Survivalio/Scripts/Managers/VibrationManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="31IROi3U43JiYwoS1iC5NQTDgZj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34987745" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3002451" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a903aaf-da36-403b-9c1a-d74cceeec929" name="Default Changelist" comment="" />
+      <created>1755209575585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755209575585</updated>
+      <workItem from="1755209597985" duration="532000" />
+      <workItem from="1755232399121" duration="2278000" />
+      <workItem from="1755468120724" duration="1218000" />
+      <workItem from="1755471493325" duration="626000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="571" height="464" key="DebuggerActiveHint" timestamp="1755232736553">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state width="571" height="464" key="DebuggerActiveHint/0.0.1707.1019@0.0.1707.1019" timestamp="1755232736553" />
+    <state width="1663" height="366" key="GridCell.Tab.0.bottom" timestamp="1755232649386">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state width="1663" height="366" key="GridCell.Tab.0.bottom/0.0.1707.1019@0.0.1707.1019" timestamp="1755232649386" />
+    <state width="1663" height="366" key="GridCell.Tab.0.center" timestamp="1755232649386">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state width="1663" height="366" key="GridCell.Tab.0.center/0.0.1707.1019@0.0.1707.1019" timestamp="1755232649386" />
+    <state width="1663" height="366" key="GridCell.Tab.0.left" timestamp="1755232649385">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state width="1663" height="366" key="GridCell.Tab.0.left/0.0.1707.1019@0.0.1707.1019" timestamp="1755232649385" />
+    <state width="1663" height="366" key="GridCell.Tab.0.right" timestamp="1755232649386">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state width="1663" height="366" key="GridCell.Tab.0.right/0.0.1707.1019@0.0.1707.1019" timestamp="1755232649386" />
+    <state width="1663" height="366" key="GridCell.Tab.1.bottom" timestamp="1755232664296">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state width="1663" height="366" key="GridCell.Tab.1.bottom/0.0.1707.1019@0.0.1707.1019" timestamp="1755232664296" />
+    <state width="1663" height="366" key="GridCell.Tab.1.center" timestamp="1755232664296">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state width="1663" height="366" key="GridCell.Tab.1.center/0.0.1707.1019@0.0.1707.1019" timestamp="1755232664296" />
+    <state width="1663" height="366" key="GridCell.Tab.1.left" timestamp="1755232664296">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state width="1663" height="366" key="GridCell.Tab.1.left/0.0.1707.1019@0.0.1707.1019" timestamp="1755232664296" />
+    <state width="1663" height="366" key="GridCell.Tab.1.right" timestamp="1755232664296">
+      <screen x="0" y="0" width="1707" height="1019" />
+    </state>
+    <state width="1663" height="366" key="GridCell.Tab.1.right/0.0.1707.1019@0.0.1707.1019" timestamp="1755232664296" />
+  </component>
+</project>
