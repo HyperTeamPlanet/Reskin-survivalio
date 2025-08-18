@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05dbe38b8463a41a68aa88b38d596c98, type: 3}
-  m_Name: Enemy3
+  m_Name: Enemy6
   m_EditorClassIdentifier: 
-  WalkSpeed: 4
-  Health: 18
+  WalkSpeed: 5
+  Health: 24
   Damage: 12
   UINotificationColor: 1
   Reward:

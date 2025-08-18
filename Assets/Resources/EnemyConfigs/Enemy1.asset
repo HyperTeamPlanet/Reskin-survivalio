@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WalkSpeed: 4
   Health: 8
-  Damage: 15
+  Damage: 12
   UINotificationColor: 1
   Reward:
   - ResourceType: 3
