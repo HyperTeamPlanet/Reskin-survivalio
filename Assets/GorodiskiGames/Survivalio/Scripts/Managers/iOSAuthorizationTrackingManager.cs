@@ -2,7 +2,7 @@
 using Game.Core;
 using Injection;
 #if UNITY_IOS
-using Unity.Advertisement.IosSupport;
+//using Unity.Advertisement.IosSupport;
 #endif
 
 namespace Game.Managers
@@ -23,15 +23,14 @@ namespace Game.Managers
 
         public void Dispose()
         {
-            _timer.TICK -= OnTick;
+           // _timer.TICK -= OnTick;
         }
 
         public void RequestTrackingAuthorization()
         {
 #if UNITY_IOS
 
-            var status = ATTrackingStatusBinding.GetAuthorizationTrackingStatus();
-
+/*
             if (status == ATTrackingStatusBinding.AuthorizationTrackingStatus.NOT_DETERMINED)
             {
                 ATTrackingStatusBinding.RequestAuthorizationTracking();
@@ -40,21 +39,21 @@ namespace Game.Managers
             else
             {
                 OnTrackingAuthorizationStatusReceived?.Invoke((int)ATTrackingStatusBinding.GetAuthorizationTrackingStatus());
-            }
+            }*/
 #endif
         }
 
-        private void OnTick()
-        {
+    /*   private void OnTick()
+       {
 #if UNITY_IOS
-            var status = ATTrackingStatusBinding.GetAuthorizationTrackingStatus();
-            if(status == ATTrackingStatusBinding.AuthorizationTrackingStatus.NOT_DETERMINED)
-                return;
+          var status = ATTrackingStatusBinding.GetAuthorizationTrackingStatus();
+           if(status == ATTrackingStatusBinding.AuthorizationTrackingStatus.NOT_DETERMINED)
+               return;
 
-            _timer.TICK -= OnTick;
+           _timer.TICK -= OnTick;
 
-            OnTrackingAuthorizationStatusReceived?.Invoke((int)ATTrackingStatusBinding.GetAuthorizationTrackingStatus());
+           OnTrackingAuthorizationStatusReceived?.Invoke((int)ATTrackingStatusBinding.GetAuthorizationTrackingStatus());
 #endif
-        }
+        }*/
     }
 }

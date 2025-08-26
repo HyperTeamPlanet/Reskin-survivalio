@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelUserStore">
-    <attachedFolders />
+    <attachedFolders>
+      <Path>../../../Users/alesa/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.collab-proxy@2.8.2</Path>
+      <Path>../../../Users/alesa/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ide.rider@3.0.31</Path>
+      <Path>../../../Users/alesa/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ide.visualstudio@2.0.22</Path>
+      <Path>../../../Users/alesa/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.nuget.newtonsoft-json@3.2.1</Path>
+      <Path>../../../Users/alesa/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.searcher@4.9.2</Path>
+      <Path>../../../Users/alesa/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.visualscripting@1.9.5</Path>
+    </attachedFolders>
     <explicitIncludes>
+      <Path>Assets</Path>
       <Path>Packages</Path>
       <Path>ProjectSettings</Path>
       <Path>../../../Users/alesa/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.collab-proxy@2.8.2</Path>
@@ -18,6 +26,7 @@
       <Path>.utmp</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
+      <Path>Recordings</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>

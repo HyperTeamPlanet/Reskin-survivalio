@@ -10,6 +10,7 @@ using Game.Player;
 using Game.Config;
 using Game.Level;
 using Game.Modules;
+using GameAnalyticsSDK;
 
 namespace Game.States
 {
@@ -27,8 +28,10 @@ namespace Game.States
 
 		private GameManager _gameManager;
 		private LevelManager _levelManager;
+		private AdMob _adMob;
 		private LevelView _levelView;
-
+		private int _startedLevel;
+		
         public readonly List<Module> _levelModules;
 		private float _showHudTime;
 		private bool _isWin;
@@ -36,17 +39,19 @@ namespace Game.States
 		public GamePlayState()
 		{
 			_levelModules = new List<Module>();
+			_adMob=  new AdMob();
 		}
 
 		public override void Initialize()
         {
 			_gameManager = new GameManager(_config);
-			
 			var level = _gameManager.Model.Level;
 			var levelConfig = _config.LevelConfigs[level];
 			var durationMax = _gameManager.Model.LevelDurationMax;
+			_startedLevel = level;
             _levelManager = new LevelManager(levelConfig, level, durationMax);
-
+            AnalyticsManager.Instance.OnLevelStart(_startedLevel);
+            
 			var prefab = _levelManager.Model.Prefab;
 			_levelView = GameObject.Instantiate(prefab).GetComponent<LevelView>();
 
@@ -120,6 +125,11 @@ namespace Game.States
 			_levelManager.ON_LEVEL_END -= OnLevelEnd;
 
 			_isWin = isWin;
+			if (isWin)
+				AnalyticsManager.Instance.OnLevelComplete(_startedLevel);
+			else
+				AnalyticsManager.Instance.OnLevelFailed(_startedLevel);
+
 			if (_isWin)
 				_gameManager.Player.Win();
 
@@ -136,6 +146,7 @@ namespace Game.States
 
 			_showHudTime = _timer.Time + _showHudDelay;
 			_timer.TICK += OnTickDelayShowHud;
+			_adMob.ShowInterstitial();
 		}
 
 		private void OnTickDelayShowHud()

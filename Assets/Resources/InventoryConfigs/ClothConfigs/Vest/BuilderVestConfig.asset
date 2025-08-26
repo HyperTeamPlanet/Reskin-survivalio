@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: BuilderVestConfig
   m_EditorClassIdentifier: 
   Label: VEST
-  Icon: {fileID: 21300000, guid: 4e17cf80f87626c499f6926a7821c92d, type: 3}
+  Icon: {fileID: 21300000, guid: e2e94b950f3eb6f4b81e4b5b7d2fc4e5, type: 3}
   Category: 0
-  Index: 10
+  Index: 14
   Levels:
   - Price: 0
     Attributes:
@@ -36,5 +36,5 @@ MonoBehaviour:
     - Type: 3
       Value: 8
   ClothType: 1
-  Mesh: {fileID: 6045730567646292527, guid: ce626dba126b7dc4d8d0d6e60d079c2b, type: 3}
+  Mesh: {fileID: 2959467708922500008, guid: 6f3f2fb4486c3fb48baf22ac413a2a12, type: 3}
   Material: {fileID: 2100000, guid: 65f26e37b3f37be4e99c3e10779d21c7, type: 2}

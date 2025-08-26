@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03513558a6ca64e4a95f496836a2ddd1, type: 3}
   m_Name: Player0
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: 371c229c02c5f4afabb10dee4139fb8b, type: 3}
+  Icon: {fileID: 1540482134, guid: b57280176bd77a845948ec60e5412bdd, type: 3}
   Label: PLAYER NAME
   Health: 0
   WalkSpeed: 8
